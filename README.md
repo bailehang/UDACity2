@@ -19,11 +19,7 @@ Two methods are used and compared:
 ## Getting started
 
 1. `conda env create -n drlnd --file drlnd.yml`,  Install the necessary environment.
-
 2. `conda activate drlnd`
-
-3.  Then,  find directory and unzip the `Reacher_Windows_x86_64.zip` to the current directory
-
+3. The first deployment requires a unity environment,  find directory and unzip the `Reacher_Windows_x86_64.zip` to the current directory
 4. `jupyter notebook Continuous_Control.ipynb`
-
 5. The training can be run directly in the notebook
