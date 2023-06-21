@@ -45,9 +45,7 @@ PPO (Proximal Policy Optimization) and DDPG (Deep Deterministic Policy Gradient)
 
 In general, PPO is more suitable for handling highly unstable environments with discrete or continuous action spaces, while DDPG is more suitable for handling continuous action spaces. However, in practical applications, the specific choice of algorithm should be determined based on the characteristics and requirements of the specific problem.
 
-What I found in my experiments, in PPO 32 layers work better than 64, in DDPG 256 layers work better than 128.
-
-
+What I found in my experiments, in PPO the 32 layers work better than 64, in DDPG the 256 layers work better than 128. DDPG occasionally fails due to non-convergence of training but usually converges faster than PPO.
 
 ## Plot of Rewards
 
