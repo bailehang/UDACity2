@@ -33,7 +33,7 @@ Two methods are used and compared:
 
    
 
-## Algorithm
+## Learning Algorithm
 
 PPO (Proximal Policy Optimization) and DDPG (Deep Deterministic Policy Gradient) are both commonly used algorithms in deep reinforcement learning, but they differ in their design and application scenarios. Here are some of the main differences between them:
 
