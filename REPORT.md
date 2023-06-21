@@ -49,7 +49,9 @@ In general, PPO is more suitable for handling highly unstable environments with 
 
 ## Plot of Rewards
 
-![20230620231554](png\20230620231554.png)
+![20230620231554](png\20230621163444.png)
+
+![20230621163444](png\20230620231554.png)
 
 ## Ideas for Future Work
 
