@@ -2,7 +2,7 @@
 
 ![image-20230620225457569](png\image-20230620225457569.png)
 
-## Project details
+## Project Details
 
 This project is part of the Udacity Deep Reinforcement Learning nanodegree.
 The goal of this project is to solve the Reacher environment. In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
@@ -16,10 +16,20 @@ Two methods are used and compared:
 - an actor-critic algorithm, the Deep Deterministic Policy Gradients (DDPG) algorithm
 - an actor-critic algorithm, the Proximal Policy Optimization (PPO) algorithm
 
-## Getting started
+## Getting Started
 
-1. `conda env create -n drlnd --file drlnd.yml`,  Install the necessary environment.
-2. `conda activate drlnd`
-3. The first deployment requires a unity environment,  find directory and unzip the `Reacher_Windows_x86_64.zip` to the current directory
-4. `jupyter notebook Continuous_Control.ipynb`
-5. The training can be run directly in the notebook
+1. There is a provided conda enviroment file `drlnd.yml` create an enviroment as shown below.
+
+   `conda env create -n drlnd --file drlnd.yml`,  Install the necessary environment.
+
+2. Then activate the envroment. 
+
+   `conda activate drlnd`
+
+3. The first deployment requires a unity environment,  find the directory and unzip the `Reacher_Windows_x86_64.zip` to the current directory
+
+4. Finally launch jupyter. `jupyter notebook Continuous_Control.ipynb`
+
+## Instructions
+
+Open the file `Continuous_Control.ipynb` and run all code section to train a model in `weights` folder.
